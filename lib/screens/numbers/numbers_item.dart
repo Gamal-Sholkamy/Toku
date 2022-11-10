@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:audioplayers/audioplayers.dart';
 import '../../core/model.dart';
 
 
@@ -32,15 +32,10 @@ class NumbersItem extends StatelessWidget{
           const Spacer(),
           Padding(
             padding: const EdgeInsets.only(right: 10),
-            child: IconButton(onPressed: (){
+            child: IconButton(onPressed: ()async{
 
-              //  AudioCache player=AudioCache(prefix: 'assets/sounds/numbers/');
-              // player.play(model.numberSound);
-               // final assetsAudioPlayer = AssetsAudioPlayer();
-              //
-              //  assetsAudioPlayer.open(
-              //    Audio("assets/audios/song1.mp3"),
-              //  );
+              final AudioPlayer player=AudioPlayer();
+              await player.play(AssetSource('assets/sounds/numbers/${model.itemSound}'));
             },
                 icon:const Icon(Icons.play_circle,size: 35,color: Colors.black87,), ),
           ),

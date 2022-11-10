@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 import '../../core/model.dart';
@@ -32,7 +33,9 @@ class FamilyMembersItem extends StatelessWidget{
           const Spacer(),
           Padding(
             padding: const EdgeInsets.only(right: 10),
-            child: IconButton(onPressed: (){
+            child: IconButton(onPressed: ()async{
+              final AudioPlayer player=AudioPlayer();
+              await player.play(AssetSource('assets/sounds/family_members/${model.itemSound}'));
 
             },
               icon:const Icon(Icons.play_circle,size: 35,color: Colors.black87,), ),

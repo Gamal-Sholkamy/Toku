@@ -4,14 +4,14 @@ import '../../core/model.dart';
 
 class ColorsScreen extends StatelessWidget{
   List<ItemModel> models=[
-    ItemModel(japanName: "Burakku", englishName: "black", itemImage: "assets/images/colors/color_black.png", itemSound: 'number_one_sound.mp3'),
-    ItemModel(japanName: "Chairo", englishName: "brown", itemImage: "assets/images/colors/color_brown.png", itemSound: 'number_two_sound.mp3'),
-    ItemModel(japanName: "Hokori ppoi kiiro", englishName: "dusty yellow", itemImage: "assets/images/colors/color_dusty_yellow.png", itemSound: 'number_three_sound.mp3'),
-    ItemModel(japanName: "Gure", englishName: "gray", itemImage: "assets/images/colors/color_gray.png", itemSound: 'number_four_sound.mp3'),
-    ItemModel(japanName: "Midori", englishName: "green", itemImage: "assets/images/colors/color_green.png", itemSound: 'number_five_sound.mp3'),
-    ItemModel(japanName: "Aka", englishName: "red", itemImage: "assets/images/colors/color_red.png", itemSound: 'number_six_sound.mp3'),
-    ItemModel(japanName: "Tksnc", englishName: "white", itemImage: "assets/images/colors/color_white.png", itemSound: 'number_seven_sound.mp3'),
-    ItemModel(japanName: "Hokori", englishName: "yellow", itemImage: "assets/images/colors/yellow.png", itemSound: 'number_eight_sound.mp3'),
+    ItemModel(japanName: "Burakku", englishName: "black", itemImage: "assets/images/colors/color_black.png", itemSound: 'black.wav'),
+    ItemModel(japanName: "Chairo", englishName: "brown", itemImage: "assets/images/colors/color_brown.png", itemSound: 'brown.wav'),
+    ItemModel(japanName: "Hokori ppoi kiiro", englishName: "dusty yellow", itemImage: "assets/images/colors/color_dusty_yellow.png", itemSound: 'dusty yellow.wav'),
+    ItemModel(japanName: "Gure", englishName: "gray", itemImage: "assets/images/colors/color_gray.png", itemSound: 'gray.wav'),
+    ItemModel(japanName: "Midori", englishName: "green", itemImage: "assets/images/colors/color_green.png", itemSound: 'green.wav'),
+    ItemModel(japanName: "Aka", englishName: "red", itemImage: "assets/images/colors/color_red.png", itemSound: 'red.wav'),
+    ItemModel(japanName: "Tksnc", englishName: "white", itemImage: "assets/images/colors/color_white.png", itemSound: 'white.wav'),
+    ItemModel(japanName: "Hokori", englishName: "yellow", itemImage: "assets/images/colors/yellow.png", itemSound: 'yellow.wav'),
 
   ];
 
